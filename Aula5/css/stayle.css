@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(155, 15, 155);
+    font-family: sans-serif;
+
+}
+
+h4 {
+    color: rgb(240, 189, 189) ;
+}
+
+
+.center div,
+.flex-start div,
+.flex-end div,
+.space-around div,
+.space-between div,
+.space-evenly div {
+    background-color: rgb(81, 67, 225);
+    color: rgb(255, 253, 253);
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Ultilizando a propiedade justify-content*/
+
+.center {
+    background-color: rgb(171, 115, 223);
+    border: 8px solid rgb(27, 27, 31);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flex-start {
+     background-color: rgb(171, 115, 223);
+    border: 8px solid rgb(27, 27, 31);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    /*Valor padao */
+}
+
+.flex-end {
+     background-color: rgb(171, 115, 223);
+    border: 8px solid rgb(27, 27, 31);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.space-around {
+     background-color: rgb(171, 115, 223);
+    border: 8px solid rgb(27, 27, 31);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.space-between {
+     background-color: rgb(171, 115, 223);
+    border: 8px solid rgb(27, 27, 31);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.space-evenly {
+     background-color: rgb(171, 115, 223);
+    border: 8px solid rgb(27, 27, 31);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
