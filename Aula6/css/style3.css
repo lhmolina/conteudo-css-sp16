@@ -1,0 +1,47 @@
+body {
+    background-color: coral;
+    font-family: inherit;
+    color: black;
+}
+
+.container {
+    background-color: darkseagreen;
+    color: darkred;
+    border: 4px solid darkred;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    background-color: aliceblue;
+    border: 4px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

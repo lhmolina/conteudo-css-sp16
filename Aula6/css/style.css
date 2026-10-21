@@ -1,0 +1,81 @@
+body {
+    background-color: #FABD0D;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+.order,
+.flex-grow,
+.flex-shrink,
+.flex-basis,
+.flex,
+.align-self{
+    background-color: rgb(82, 79, 73) ;
+    border: 5px solid black;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: order;
+}
+
+h1 {
+    color: darkred;
+}
+
+h3 {
+    color: black;
+}
+
+.order div,
+.flex-grow div,
+.flex-shrink div,
+.flex-basis div,
+.flex div
+ {
+    background-color: darkblue;
+    color: white;
+    border:  2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+/* Ultilizando o aling-self */
+
+.align-self{
+    height: 200px;
+}
+
+.align-self div {
+    background-color:darkblue ;
+    color:white;
+    border: 3px solid black;
+    border-radius: 18px;
+    padding: 30px;
+    text-align: center;
+}
+
+#as-item3 {
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
